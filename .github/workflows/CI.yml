@@ -192,7 +192,7 @@ jobs:
       - name: Publish
         run: |
           npm config set provenance true
-          if git log -1 --pretty=%B | grep "^chore: bump version$"; then
+          if git log -1 --pretty=%B | grep "^chore: bump version"; then
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             npm publish --access public
           else
