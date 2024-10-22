@@ -7,6 +7,9 @@
   "cpu": [
     "x64"
   ],
+  "repository": {
+    "url": "https://github.com/willbot-koishi/napi-jieba"
+  },
   "main": "jieba.darwin-x64.node",
   "files": [
     "jieba.darwin-x64.node"

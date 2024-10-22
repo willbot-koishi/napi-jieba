@@ -7,6 +7,9 @@
   "cpu": [
     "x64"
   ],
+  "repository": {
+    "url": "https://github.com/willbot-koishi/napi-jieba"
+  },
   "main": "jieba.win32-x64-msvc.node",
   "files": [
     "jieba.win32-x64-msvc.node"

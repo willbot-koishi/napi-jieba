@@ -131,10 +131,9 @@ impl JsJieba {
     }
 
     #[napi]
-    pub fn load_dict(&mut self, dict: &[u8]) -> Result<()> {
-        let mut mut_dict = dict;
+    pub fn load_dict(&mut self, mut dict: &[u8]) -> Result<()> {
         self.jieba
-            .load_dict(&mut mut_dict)
+            .load_dict(&mut dict)
             .map_err(|err| Error::from_reason(format!("Failed to load dict: {}", err.to_string())))?;
         Ok(())
     }
