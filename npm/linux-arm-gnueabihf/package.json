@@ -1,6 +1,6 @@
 {
   "name": "@willbot-koishi/jieba-linux-arm-gnueabihf",
-  "version": "0.4.0-alpha1",
+  "version": "0.4.0",
   "os": [
     "linux"
   ],
@@ -14,8 +14,8 @@
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }, 
+  },
   "repository": {
-    "url": "https://github.com/willbot-koishi/napi-jieba"
+    "url": "git+https://github.com/willbot-koishi/napi-jieba.git"
   }
 }

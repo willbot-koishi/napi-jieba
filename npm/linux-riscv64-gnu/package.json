@@ -1,6 +1,6 @@
 {
   "name": "@willbot-koishi/jieba-linux-riscv64-gnu",
-  "version": "0.4.0-alpha1",
+  "version": "0.4.0",
   "os": [
     "linux"
   ],
@@ -17,8 +17,8 @@
   },
   "libc": [
     "glibc"
-  ], 
+  ],
   "repository": {
-    "url": "https://github.com/willbot-koishi/napi-jieba"
+    "url": "git+https://github.com/willbot-koishi/napi-jieba.git"
   }
 }
