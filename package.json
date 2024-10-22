@@ -20,7 +20,8 @@
       "armv7-linux-androideabi",
       "aarch64-linux-android",
       "x86_64-apple-darwin",
-      "aarch64-apple-darwin"
+      "aarch64-apple-darwin",
+      "x86_64-unknown-freebsd"
     ]
   },
   "license": "MIT",
