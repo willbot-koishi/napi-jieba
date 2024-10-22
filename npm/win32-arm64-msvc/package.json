@@ -1,15 +1,15 @@
 {
-  "name": "@willbot-koishi/jieba-win32-x64-msvc",
+  "name": "@willbot-koishi/jieba-win32-arm64-msvc",
   "version": "0.3.0",
   "os": [
     "win32"
   ],
   "cpu": [
-    "x64"
+    "arm64"
   ],
-  "main": "jieba.win32-x64-msvc.node",
+  "main": "jieba.win32-arm64-msvc.node",
   "files": [
-    "jieba.win32-x64-msvc.node"
+    "jieba.win32-arm64-msvc.node"
   ],
   "license": "MIT",
   "engines": {

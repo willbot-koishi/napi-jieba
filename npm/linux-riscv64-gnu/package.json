@@ -1,15 +1,15 @@
 {
-  "name": "@willbot-koishi/jieba-linux-x64-gnu",
+  "name": "@willbot-koishi/jieba-linux-riscv64-gnu",
   "version": "0.3.0",
   "os": [
     "linux"
   ],
   "cpu": [
-    "x64"
+    "riscv64"
   ],
-  "main": "jieba.linux-x64-gnu.node",
+  "main": "jieba.linux-riscv64-gnu.node",
   "files": [
-    "jieba.linux-x64-gnu.node"
+    "jieba.linux-riscv64-gnu.node"
   ],
   "license": "MIT",
   "engines": {

@@ -1,0 +1,15 @@
+{
+  "name": "@willbot-koishi/jieba-darwin-universal",
+  "version": "0.3.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "jieba.darwin-universal.node",
+  "files": [
+    "jieba.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
