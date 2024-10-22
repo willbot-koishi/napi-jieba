@@ -1,20 +1,20 @@
 {
-  "name": "@willbot-koishi/jieba-win32-x64-msvc",
+  "name": "@willbot-koishi/jieba-linux-arm-musleabihf",
   "version": "0.3.0",
   "os": [
-    "win32"
+    "linux"
   ],
   "cpu": [
-    "x64"
+    "arm"
   ],
-  "main": "jieba.win32-x64-msvc.node",
+  "main": "jieba.linux-arm-musleabihf.node",
   "files": [
-    "jieba.win32-x64-msvc.node"
+    "jieba.linux-arm-musleabihf.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  },
+  }, 
   "repository": {
     "url": "https://github.com/willbot-koishi/napi-jieba"
   }

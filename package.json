@@ -1,18 +1,33 @@
 {
   "name": "@willbot-koishi/jieba",
-  "version": "0.2.0",
+  "version": "0.4.0-alpha0",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "url": "https://github.com/willbot-koishi/napi-jieba"
   },
   "napi": {
-    "name": "jieba",
-    "triples": {}
+    "binaryName": "jieba",
+    "targets": [
+      "x86_64-apple-darwin",
+      "x86_64-pc-windows-msvc",
+      "i686-pc-windows-msvc",
+      "x86_64-unknown-linux-gnu",
+      "x86_64-unknown-linux-musl",
+      "aarch64-apple-darwin",
+      "aarch64-unknown-linux-gnu",
+      "armv7-unknown-linux-gnueabihf",
+      "aarch64-linux-android",
+      "armv7-linux-androideabi",
+      "aarch64-unknown-linux-musl",
+      "aarch64-pc-windows-msvc",
+      "x86_64-apple-darwin",
+      "x86_64-pc-windows-msvc"
+    ]
   },
   "license": "MIT",
   "devDependencies": {
-    "@napi-rs/cli": "^2.17.0",
+    "@napi-rs/cli": "^3.0.0-alpha.63",
     "@septh/ts-run": "^2.0.0",
     "ava": "^6.1.3"
   },

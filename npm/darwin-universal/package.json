@@ -1,20 +1,17 @@
 {
-  "name": "@willbot-koishi/jieba-win32-x64-msvc",
+  "name": "@willbot-koishi/jieba-darwin-universal",
   "version": "0.3.0",
   "os": [
-    "win32"
+    "darwin"
   ],
-  "cpu": [
-    "x64"
-  ],
-  "main": "jieba.win32-x64-msvc.node",
+  "main": "jieba.darwin-universal.node",
   "files": [
-    "jieba.win32-x64-msvc.node"
+    "jieba.darwin-universal.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  },
+  }, 
   "repository": {
     "url": "https://github.com/willbot-koishi/napi-jieba"
   }
