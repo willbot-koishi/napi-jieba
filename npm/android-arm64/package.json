@@ -1,6 +1,6 @@
 {
   "name": "@willbot-koishi/jieba-android-arm64",
-  "version": "0.4.0-alpha0",
+  "version": "0.4.0-alpha1",
   "os": [
     "android"
   ],
